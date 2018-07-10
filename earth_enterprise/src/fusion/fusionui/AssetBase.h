@@ -93,6 +93,7 @@ class AssetBase : public QMainWindow {
   virtual void Close();
   virtual void EditNotes();
   virtual void Build();
+  virtual void SaveAndBuild();
   virtual void SetHidden(bool on);
   virtual void AboutToShowFileMenu();
   virtual void AboutToHideFileMenu();
